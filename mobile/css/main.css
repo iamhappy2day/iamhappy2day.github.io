@@ -1,0 +1,502 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
+
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+/* header */
+.header {
+	padding: 42px 0;
+	background: #46b178;
+}
+/* logo */
+
+.header a.logo img { 
+margin-bottom: 10px; }
+
+.header .logo-text {
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400 ;
+	line-height: ;
+	letter-spacing: ;
+	margin-left: 7px;
+	text-decoration: none;
+}
+
+/* navigation */
+.header_nav {
+
+    margin: 4px 0 0 20px;
+}
+.header_nav ul {
+	margin-bottom: 0px;
+}
+
+.header_nav ul:hover li { opacity: 0.4; }
+.header_nav ul li:hover { opacity: 1; }
+
+.header_nav ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 39px;
+}
+
+.header_nav ul li a {
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400 ;
+	line-height: ;
+	letter-spacing: ;
+}
+
+/* social media */i
+
+.social {}
+
+.social li {
+	list-style: none;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	background: #ffffff;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 30px;
+	margin-right: 20px;
+	transition: all 0.5s ease;
+}
+
+.social li:hover {
+	background: black;
+
+}
+.social li a {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.social li a i.fab {
+	color: #3b9e69;
+}
+
+/* intro */
+.wr-intro {
+	background: url('../images/intro-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 178px 0;
+}
+
+.wr-intro .intro_section h1 {
+	text-transform: uppercase;
+	color: #525252;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 34px;
+	font-weight: 700 ;
+	line-height: ;
+	letter-spacing: 2px ;
+    margin-bottom: 0px;
+}
+.wr-intro .intro_section p {
+
+	color: #6e6c6c;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400 ;
+	line-height: 1.7;
+	letter-spacing: 0.8px; 
+	padding: 30px 0;
+    margin-bottom: 0px;
+}
+.wr-intro .intro_ection ul {}
+.wr-intro .intro_section ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.wr-intro .intro_section ul li a {
+	color: #525252;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 600 ;
+	line-height: ;
+	letter-spacing: ;
+	
+	
+}
+
+.wr-intro .intro_section ul li button {
+	background: transparent;
+	border: 2px solid #525252;
+	padding: 16px 37px;
+}
+
+.wr-intro .intro_section ul li button:hover i  {
+ -webkit-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
+}
+
+.wr-intro .intro_section ul li button i.fab {
+
+	color: #525252;
+	margin-right: 22px;
+}
+
+
+/* companies */
+.wr-companies {
+	background: #f3f3f3;
+	text-align: center;
+}
+.wr-companies .company-block {
+	height: 100px;
+	line-height: 100px;
+}
+.wr-companies .company-block:hover {
+	background: #eeeeee;
+}
+
+/* about app */
+.wr-about-app {
+	padding: 100px 0 78px 0;
+}
+.wr-about-app h2 {
+	color: #525151;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 34px;
+	font-weight: 700 ;
+    line-height: 1.28;
+    letter-spacing: 0.3px;
+	text-transform: uppercase;
+}
+.wr-about-app p {
+    color: #767272;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.95;
+    letter-spacing: 0.1px;
+    margin: 22px 0 46px 0;
+}
+.wr-about-app ul {
+	margin-bottom: 53px;
+}
+.wr-about-app ul li {
+	list-style: none;
+	margin-bottom: 13px;
+
+}
+
+.wr-about-app ul li i {
+margin-right: 28px;
+}
+.wr-about-app ul li p {
+	display: inline;
+	color: #767272;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700 ;
+	line-height: ;
+	letter-spacing: ;
+}
+
+.wr-about-app ul.watch-video li {
+	display: inline-block;
+	margin-right: 39px;
+}
+
+.wr-about-app ul.watch-video li button {
+	background: transparent;
+	border: 2px solid #525252;
+	padding: 16px 33px;
+	color: #767272;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 800 ;
+	line-height: ;
+	letter-spacing: ;
+
+}
+
+.wr-about-app ul.watch-video li button:hover img {
+	 -webkit-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
+}
+
+.wr-about-app ul.watch-video li a {
+	color: #636363;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400 ;
+	line-height: ;
+	letter-spacing: ;
+}
+
+.wr-about-app ul.watch-video li a:hover {
+color: #46b278;
+}
+/* features */
+
+.feature_item {
+	text-align: center;
+	color: #ffffff;
+}
+
+.feature_item h3 {
+	margin: 48px 0 27px 0;
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400 ;
+	text-transform: uppercase;
+	line-height: ;
+	letter-spacing: 0.6px ;
+}
+
+.feature_item p {
+	color: #e1f7eb;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400 ;
+	line-height: 1.8;
+	letter-spacing: 0.13px;
+	margin-bottom: 0px;
+}
+
+.second-row {
+	margin-top: 76px;
+}
+
+.features {
+	
+	background: #46b278;
+}
+
+/* blockquote */
+.blockquote {
+	text-align: center;
+	margin-bottom: 0px;
+}
+.blockquote-text p {
+	color: #767272;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400 ;
+	line-height: 2 ;
+	letter-spacing: 0.1px;
+	margin-bottom: 32px;
+}
+.blockquote-author {
+	position: absolute;
+    top: -122px;
+    right: 35%;
+}
+.blockquote-author p.author-name {
+   color: #4b4848;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700 ;
+	text-transform: uppercase;
+	line-height: ;
+	letter-spacing: ;
+	margin-bottom: 0px;
+}
+
+.blockquote-author p.developer {
+   	color: #6f6d6d;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400 ;
+	line-height: ;
+	letter-spacing: 0.2px;
+}
+.owl-stage-outer {
+	cursor: pointer;
+}
+.owl-dots {
+	display: none;
+}
+.owl-nav {
+	    margin-top: 124px;
+}
+.owl-nav .owl-prev {
+
+background: #ffffff;
+border-radius: 50%;
+    margin-right: 40px;
+
+}
+.owl-nav .owl-prev i,.owl-nav .owl-next i {
+color: #e0dede;
+font-size: 32px;
+}
+
+.owl-nav .owl-prev i:hover,.owl-nav .owl-next i:hover {
+	color: #41c07d;
+}
+
+/* subscribe box */
+.subscribe-box {
+	text-align: center;
+	background: #46b278;
+}
+
+.subscribe-box h3 {
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400 ;
+	margin-bottom: 50px;
+	line-height: ;
+	letter-spacing: 0.2px; 
+}
+
+.subscribe-box .wr-subscribe {
+	position: relative;;
+}
+.subscribe-box .email-input {
+	padding: 12px 20px;
+	width: 368px;
+	
+}
+
+.subscribe-box img {
+	position: absolute;
+    top: 18px;
+    right: 35%;
+}
+
+/* footer */
+.footer {
+	text-align: center;
+}
+.footer ul.footer-img {
+	text-align: center;
+  	 margin-bottom: 45px;
+}
+.footer ul.footer-img li {
+	display: inline-block;
+	list-style: none;
+}
+
+.footer ul.footer-img li.middle-li {
+
+    padding: 0 62px;
+}
+.footer ul.footer-img li a i {
+	color: #dddddd;
+	font-size: 38px;
+}
+
+.footer ul.footer-img li a i:hover {
+color:  black;
+}
+
+.footer p {
+	color: #888484;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 400 ;
+	line-height: ;
+	letter-spacing: 0.7px;
+}
+
+
+.features, .blockquote, .subscribe-box, .footer {
+	padding: 100px 0;
+}
+
+::-webkit-input-placeholder {color:#5ac98e; opacity:1;}/* webkit */
+::-moz-placeholder          {color:#5ac98e; opacity:1;}/* Firefox 19+ */
+::-moz-placeholder           {color:#5ac98e; opacity:1;}/* Firefox 18- */
+::-ms-input-placeholder     {color:#5ac98e; opacity:1;}/* IE */
+
+@media (max-width: 1500px) {
+	.blockquote-author {    right: 30%;}
+}
+
+@media (max-width: 1199px) {
+	.social { margin-left: 50px; }
+	.blockquote-author { right: 26%;}
+}
+
+@media (max-width: 991px) {
+	.social { margin-left: 0px; }
+	.wr-intro .intro_section ul li button {padding: 16px 29px;}
+	.wr-intro .intro_section p {letter-spacing: 0.5px;}
+	.wr-about-app  {text-align: left; padding: 70px 0 50px 0;}
+	.wr-about-app p { font-size: 15px; }
+	.wr-about-app figure { text-align: center; }
+	.feature_item p { text-align: justify; line-height: 1.5;letter-spacing: 0px;}
+	.second-row{margin-top: 55px;}
+	.subscribe-box img{right: 27%;}
+	.blockquote-author { right: 20%;}
+}
+
+@media (max-width: 767px) {
+	.header_nav ul li {margin-right: 32px;}
+	.social {    text-align: center; margin-top: 15px;}
+	.header {    padding: 25px 0;}
+	.wr-intro .intro_section ul li button i.fab {margin-right: 15px;}
+	.wr-intro .intro_section ul li button {padding: 16px 17px;}
+	.wr-intro {padding: 130px 0;}
+	.wr-intro .intro_section ul li button {border: 2px solid #45b379; padding: 16px 17px}
+	.wr-intro .intro_section ul li a {color: #45b379;}
+	figure .img-fluid {height: 400px;}
+	.wr-about-app {    padding: 70px 0 30px 0;}
+	.wr-about-app p {  margin: 22px 0 30px 0; }
+	.feature_item h3 {    margin: 35px 0 27px 0; }
+	.feature_item p {text-align: center;}
+	.features, .blockquote, .subscribe-box, .footer {    padding: 80px 0;}
+	.blockquote {margin-bottom: 0px;}
+	.blockquote-author { right: 44%;}
+}
+
+@media (max-width: 575px) {
+	.header {text-align: center;}
+	.header_nav ul li {margin-right: 0px;}
+	.header_nav ul li.li-second {margin: 10px 75px;}
+	.social li {margin-right: 0px;}
+	.social .middle-li {margin: 0 35px;}
+	.wr-intro {padding: 100px 0}
+	.wr-intro .intro_section ul li button {    border: 2px solid; padding: 16px 17px; width: 250px; margin-bottom: 30px;}
+	.wr-companies .company-block .first {margin-bottom: 30px;}
+	.wr-about-app {    padding: 70px 0 0px 0;}
+	.feature_item h3 {    margin: 20px 0 15px 0;}
+	.feature_item p {margin-bottom: 30px;}
+	.second-row {margin-top: 0px;}
+	.features, .blockquote, .subscribe-box, .footer { padding: 60px 0; }
+	.subscribe-box img {right: 20%;}
+	.blockquote-author { right: 41%;}
+}
+
+@media (max-width: 386px) {
+.subscribe-box .email-input { width: 296px; }
+.blockquote-author { right: 39%;}
+}
+
+@media (max-width: 412px) {
+	.wr-about-app ul li p {font-size: 14px;}
+	.header_nav {    margin: 4px 0 0 0px;}
+	.subscribe-box img {right: 6%;}
+	.header_nav ul li.li-second {margin: 10px 38px;}
+	.blockquote-author { right: 38%;}
+
+}
+
+@media (max-width: 386px) {
+	.subscribe-box img {right: 13%;}
+	.blockquote-author { right: 37%; }
+}
+
+
+
