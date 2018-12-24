@@ -14,6 +14,18 @@ $(document).on('click','#onClickMovers',  () => {
 		window.open('https://uslugi-gruzchikov.by', '_blank');
 	});
 
+$(document).on('click','#onClickCV',  () => {
+		window.open('https://iamhappy2day.github.io/myCV/', '_blank');
+	});
+
+$(document).on('click','#onClickMobile',  () => {
+		window.open('https://iamhappy2day.github.io/mobile/', '_blank');
+	});
+
+$(document).on('click','#onClickDomain',  () => {
+		window.open('https://iamhappy2day.github.io/domain-seller/', '_blank');
+	});
+
 // document.ready
 $(document).ready(function() {
 
