@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0px;
   min-width: 320px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /*Preloader */
@@ -52,7 +54,7 @@ header .logo img {
 }
 header .logo a {
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
   color: #fff;
   display: inline;
@@ -143,7 +145,7 @@ header .header-nav ul li {
 header .header-nav ul li a {
   color: #fff;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 13px;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -218,7 +220,7 @@ header .header-nav ul li:hover {
 .first-screen .wr-first-screen p {
   color: #fff;
   font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 22px;
   font-style: italic;
   letter-spacing: 1px;
@@ -448,7 +450,7 @@ header .header-nav ul li:hover {
   margin-top: 0px;
   color: #1a1a1a;
   font-family: "Lato", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   letter-spacing: 0.4px;
@@ -516,7 +518,7 @@ header .header-nav ul li:hover {
 .work-exp .wr-exp .info-div h4 {
   color: #1a1a1a;
   font-family: "Lato", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   letter-spacing: 0.4px;
@@ -526,7 +528,7 @@ header .header-nav ul li:hover {
   margin: 0px;
 }
 .work-exp .wr-exp .info-div span {
-  color: rgba(26, 26, 26, 0.7);
+  color: rgba(26, 26, 26, 0.6);
   display: block;
   margin-top: 20px;
   font-family: "Lato", sans-serif;
@@ -596,7 +598,7 @@ header .header-nav ul li:hover {
 .education .wr-edu .info-div h4 {
   color: #1a1a1a;
   font-family: "Lato", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   letter-spacing: 0.4px;
@@ -703,7 +705,7 @@ header .header-nav ul li:hover {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 22px;
   font-style: normal;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 1px;
   line-height: 1.5em;
   text-transform: none;
@@ -811,7 +813,7 @@ header .header-nav ul li:hover {
 .portfolio .container-block .wr-portfolio .portfolio-item .hover-div p {
   color: #fff;
   font-family: "Lato", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: italic;
   font-size: 12px;
   letter-spacing: 0.01em;
@@ -858,7 +860,7 @@ header .header-nav ul li:hover {
 .footer .footer-nav ul li a {
   color: #fff;
   font-family: "Source Sans Pro", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 13px;
   letter-spacing: 0.2em;
   text-transform: uppercase;

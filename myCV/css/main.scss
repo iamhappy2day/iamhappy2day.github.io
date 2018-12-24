@@ -43,7 +43,7 @@ $bg-color-1: #edeeef;
 @mixin h4-style {
 	color: #1a1a1a;
     font-family: 'Lato', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
     font-size: 14px;
    	letter-spacing: 0.4px;
@@ -74,10 +74,12 @@ $bg-color-1: #edeeef;
     font-size: 16px;
     letter-spacing: 0em;
     line-height: 1.8em;
-						    color: rgba(26, 26, 26, 0.75);
+    color: rgba(26, 26, 26, 0.75);
 }
-body { margin:0; padding: 0px; min-width: 320px; }
-
+body { margin:0; padding: 0px; min-width: 320px; 
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
 
 
 
@@ -133,7 +135,7 @@ header {
 
     	a {
 		    font-family: "Source Sans Pro", sans-serif;
-		    font-weight: 300;
+		    font-weight: 400;
 		    letter-spacing: 1px;
     		color: $main-color-1;
     		display: inline;
@@ -237,7 +239,7 @@ header {
 		  a {
 		  	color: $main-color-1;
 		  	font-family: 'Source Sans Pro', sans-serif;
-		    font-weight: 300;
+		    font-weight: 400;
 		    font-size: 13px;
 		    letter-spacing: .2em;
 		    text-transform: uppercase;
@@ -312,7 +314,7 @@ header {
 		 p {
 			color: $main-color-1;
 	       	font-family: 'Lato', sans-serif;
-	       	font-weight: 300;
+	       	font-weight: 400;
 		    font-size: 22px;
 		    font-style: italic;
 		    letter-spacing: 1px;
@@ -575,7 +577,7 @@ header {
 				margin: 0px;
 			}
 			span {
-				color: rgba(26, 26, 26, 0.7);
+				color: rgba(26, 26, 26, 0.6);
 				display: block;
 				margin-top: 20px;
 				font-family: 'Lato', sans-serif;;
@@ -724,7 +726,7 @@ header {
 		    font-family: "Source Sans Pro", sans-serif;
 		    font-size: 22px;
 		    font-style: normal;
-		    font-weight: 200;
+		    font-weight: 400;
 		    letter-spacing: 1px;
 		    line-height: 1.5em;
 		    text-transform: none;
@@ -810,7 +812,7 @@ header {
 
 						    color: #fff;
 						    font-family: "Lato", sans-serif;
-						    font-weight: 300;
+						    font-weight: 400;
 						    font-style: italic;
 						    font-size: 12px;
 						    letter-spacing: 0.01em;
@@ -856,7 +858,7 @@ header {
 		  a {
 		  	color: $main-color-1;
 		  	font-family: 'Source Sans Pro', sans-serif;
-		    font-weight: 300;
+		    font-weight: 400;
 		    font-size: 13px;
 		    letter-spacing: .2em;
 		    text-transform: uppercase;
