@@ -22,6 +22,10 @@ $(document).on('click','#onClickMobile',  () => {
 		window.open('https://iamhappy2day.github.io/mobile/', '_blank');
 	});
 
+$(document).on('click','#onClickE-com',  () => {
+		window.open('https://iamhappy2day.github.io/bazar/', '_blank');
+	});
+
 $(document).on('click','#onClickDomain',  () => {
 		window.open('https://iamhappy2day.github.io/domain-seller/', '_blank');
 	});
