@@ -762,6 +762,9 @@ header .header-nav ul li:hover {
   width: 100%;
   height: 100%;
 }
+.portfolio .container-block .wr-portfolio .portfolio-item .reactPr {
+  height: auto;
+}
 .portfolio .container-block .wr-portfolio .portfolio-item .hover-div {
   position: absolute;
   top: 0;
