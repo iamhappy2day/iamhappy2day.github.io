@@ -15,7 +15,7 @@ $(document).on('click','#onClickMovers',  () => {
 	});
 
 $(document).on('click','#onClickCV',  () => {
-		window.open('https://iamhappy2day.github.io/myCV/', '_blank');
+		window.open('https://iamhappy2day.github.io/cvPreview/', '_blank');
 	});
 
 $(document).on('click','#onClickMobile',  () => {
