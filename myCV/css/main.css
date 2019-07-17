@@ -739,10 +739,6 @@ header .header-nav ul li:hover {
 .portfolio .owl-nav button {
   margin: 0 20px;
   outline: none;
-  transition: 0.4s;
-}
-.portfolio .owl-nav button:hover {
-  color:#363636;
 }
 .portfolio .container-block {
   display: flex;
@@ -823,7 +819,7 @@ header .header-nav ul li:hover {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.01em;
   transition: 0.8s;
   transform: translateY(-30px);

@@ -18,6 +18,10 @@ $(document).on('click','#onClickCV',  () => {
 		window.open('https://iamhappy2day.github.io/cvPreview/', '_blank');
 	});
 
+$(document).on('click','#onClickStarWars',  () => {
+		window.open('https://iamhappy2day.github.io/starwarsnotepad/', '_blank');
+	});
+
 $(document).on('click','#onClickMobile',  () => {
 		window.open('https://iamhappy2day.github.io/mobile/', '_blank');
 	});
@@ -27,7 +31,7 @@ $(document).on('click','#onClickE-com',  () => {
 	});
 
 $(document).on('click','#onClickTodo',  () => {
-		window.open('https://iamhappy2day.github.io/react-apps/', '_blank');
+		window.open('https://iamhappy2day.github.io/todoapp/', '_blank');
 	});
 
 $(document).on('click','#onClickDomain',  () => {
