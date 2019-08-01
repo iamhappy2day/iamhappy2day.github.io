@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url(https://www.dailydot.com/wp-content/uploads/bb5/2e/0187168b700be1b65839a56d9066aaed.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.wrapper h1 {
+    color:#fff;
+    font-size: 42px;
+}
+.wrapper button {
+    display: block;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #fff;
+    outline:none;
+    transition: 0.5s;
+    margin: auto;
+  }
+
+  .wrapper form {
+    margin: 20px 0;
+  }
+  .wrapper textarea {
+      cursor:pointer;
+      outline: none;
+      padding: 20px;
+      font-size: 16px;
+  }
+
+   .answer p {
+    color: #fff;
+    font-size: 36px;
+  }
+  .answer p span {
+      color: #17a2b8;
+      font-weight: bold;
+      text-align: center;
+  }
+  button:hover{
+    background: darkgreen;
+  }
+  

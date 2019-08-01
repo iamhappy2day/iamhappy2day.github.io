@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Let's help Edward</title>
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sketchy/bootstrap.min.css" rel="stylesheet" integrity="sha384-N8DsABZCqc1XWbg/bAlIDk7AS/yNzT5fcKzg/TwfmTuUqZhGquVmpb5VvfmLcMzp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+    <div class="wrapper">
+        <!--Form + button-->
+        <h1>Let's help Edward!</h1>
+        <form>
+            <textarea maxlength = "100000"
+            autofocus placeholder="Say something to Edward..." name="text-item" id="text-item" cols="30" rows="5" value=""></textarea>
+            <button class= "btn btn-outline-info" id="btn-submit" type="button">Decrypt</button>
+        </form>
+        <!--form result -->
+        <div class="answer">
+            <p>Answer :<br>
+                <span class="form-result"></span>
+            </p>
+        </div>
+
+      </div>
+      <script src="js/main.js"></script>
+</body>
+</html>
